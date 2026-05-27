@@ -1,0 +1,2707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S7</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Main Page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C46</id>
+				<title>User is able to enter ‘Candidates’ page after clicking ‘Candidates’ link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-1</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot; data-pasted=&quot;true&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Click &quot;Candidates&quot; link on main menu.&lt;/p&gt;&lt;p&gt;3. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to &quot;Candidates&quot; page.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C47</id>
+				<title>User is able to enter &quot;Jobs&quot; page after clicking &quot;Jobs&quot; link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-2</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Click &quot;Jobs&quot; link on main menu.&lt;/p&gt;&lt;p&gt;3. Observe result&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to &quot;Jobs&quot; page.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C48</id>
+				<title>User is able to enter &quot;Sign In&quot; page after clicking &quot;Sign In&quot; link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-3</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Click &quot;Sign in&quot; link on main menu.&lt;/p&gt;&lt;p&gt;3. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to &quot;Sign in&quot; page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C49</id>
+				<title>User is able to toggle beetwen [For companies] state and [For engineers] state when clicking toggle switch link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-5</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Click &quot;For engineers&quot; toggle switch on main menu.&lt;/p&gt;&lt;p&gt;3. Observe result&lt;/p&gt;&lt;p data-pasted=&quot;true&quot;&gt;&lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;4. Click &quot;For companies&quot; toggle switch on main menu.&lt;/p&gt;&lt;p&gt;5. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User can toggle between &quot;For engineers&quot; and &quot;For companies&quot; states on navbar on top of the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C50</id>
+				<title>User is able to enter &quot;Sign Up&quot; page after clicking &quot;Sign Up&quot; link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-4</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Click &quot;Sign up&quot; link on main menu.&lt;/p&gt;&lt;p&gt;3. Observe result&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to &quot;Sign up&quot; page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C51</id>
+				<title>Logged in User is able to enter &quot;Chats&quot; page after clicking &quot;Chats&quot; link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-6</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is registered and logged in&lt;/p&gt;</preconds>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Click &quot;Chats&quot; link on main menu.&lt;/p&gt;&lt;p&gt;2. Observe result&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to &quot;Chats&quot; page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C52</id>
+				<title>Logged In User can open [Profile] Tab after clicking &quot;Profile&quot; link on top menu</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-7</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is registered and logged in&lt;/p&gt;</preconds>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1. Click &quot;Profile&quot; link on main menu.&lt;/p&gt;&lt;p&gt;2. Observe result&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;&quot;Profile&quot; tab is shown to the user&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Toggle For companies</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C53</id>
+				<title>User is able to see other companies proposition when scroling down to comparision section on the page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-9</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot; data-pasted=&quot;true&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Toggle [For companies] switch on navbar&lt;/p&gt;&lt;p&gt;3. Scroll down to comparision section&lt;/p&gt;&lt;p&gt;4. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees other companies proposition when scroling down to comparision section on the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C54</id>
+				<title>User is able to see at least 2 other companies proposition when scroling down to comparision section on the page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-9</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p data-pasted=&quot;true&quot;&gt;1. Go to page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot; data-pasted=&quot;true&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2. Toggle [For companies] switch on navbar&lt;/p&gt;&lt;p&gt;3. Scroll down to comparision section&lt;/p&gt;&lt;p&gt;3. Observe result&lt;/p&gt;</preconds>
+											<expected>&lt;p&gt;User sees at least 2 other companies proposition when scroling down to comparision section on the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C59</id>
+				<title>User is able to see quotes from CEO when scroling down to quotes section on the page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-10</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2. Toggle [For companies] switch on navbar&lt;/p&gt;&lt;p&gt;3 Scroll down to quotes section&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees CEO quotes when scroling down to quotes section on the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C60</id>
+				<title>User is able to see partners logos from CEO when scroling down to partners section on the page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-11</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2. Toggle [For companies] switch on navbar&lt;/p&gt;&lt;p&gt;3 Scroll down to partners section&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees partners logos when scroling down to partners section on the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C61</id>
+				<title>User is  redirected to &quot;Candidates&quot;page when clicking [Hire Engineers] button on the body section.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-12</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2. Toggle [For companies] switch on navbar&lt;/p&gt;&lt;p&gt;3 Click on [Hire Engineers] button&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees CEO quotes when scroling down to quotes section on the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Toggle For engineers</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C62</id>
+				<title>User is able to open Google authorization process when clicking [Google logo] in registration section.</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-13</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Click on [Google logo] button on registration section&lt;br /&gt;3 Observe result&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;User sees opened Google OAuth window when clicking [Google logo] in registration section.&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C63</id>
+				<title>User is able to open LinkedIn authorization process when clicking [LinkedIn logo] in registration section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-14</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Click on [LinkedIn logo] button in registration section&lt;br /&gt;3 Observe result&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;User sees opened LinkedIn OAuth window when clicking [LinkedIn logo] in registration section&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C64</id>
+				<title>User is able to open GitHub authorization process when clicking [GitHub logo] in registration section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-15</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Click on [GitHub logo] button in registration section&lt;br /&gt;3 Observe result&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;User sees opened GitHub OAuth window when clicking [GitHub logo] in registration section&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C65</id>
+				<title>User is redirected to Sign Up page after submitting valid email via Get offers button</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-16</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Enter valid email into {Email} field in registration section&lt;br /&gt;3 Click on [Get offers] button&lt;br /&gt;4 Observe result&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;User is redirected to Sign Up page after submitting valid email via Get offers button&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C66</id>
+				<title>User is redirected to Job page when clicking [Apply} button on any job from job cards</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-17</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to latest job offers section&lt;br&gt;3 Click [Apply] button on any job from the group of job cards &lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to Job page when clicking Apply button on job cards&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C67</id>
+				<title>Signed-in user sees mobile app banner instead of sign-up form</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-29</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; with a valid user account&lt;br&gt;2 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Signed-in user sees a banner with mobile app advertisement on a main page.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C68</id>
+				<title>Bottom of the page contains at least 10 feedbacks from real users</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-50</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to page &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the carousel section with users feedback&lt;br&gt;3 Navigate corusel with arrows and count visible entries&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees at least 10 feedbacks from real users at the bottom of the page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Candidates</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Filters</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C69</id>
+				<title>Registered user is able to filter Candidates list by role in filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;br&gt;2. Select any role from Role input list&lt;br&gt;3. Check filtered result on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with selected role.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C151</id>
+				<title>Registered user is able to filter Candidates list by technologies in filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;br&gt;2. Select any technology from Technologies input list&lt;br&gt;3. Check filtered result on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with selected technologies.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C152</id>
+				<title>Registered user is able to filter Candidates list by annual salary in filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Toggle salary switch to Annual position&lt;/p&gt;&lt;p&gt;3. Select salary range using min and max sliders.&lt;/p&gt;&lt;p&gt;4. Check filtered result on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with selected annual salary range.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C156</id>
+				<title>Registered user is able to refine filtration range when using salary filtration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Toggle salary switch to Annual position&lt;/p&gt;&lt;p&gt;3. Select salary range using min and max sliders.&lt;/p&gt;&lt;p&gt;4. Check filtered result on the list&lt;/p&gt;&lt;p&gt;5. Change salary range using min and max sliders.&lt;/p&gt;&lt;p&gt;6. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with modified selected annual salary range.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C157</id>
+				<title>Registered user is able to refine filtration range when using location filtration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Toggle location switch to Timezone position&lt;/p&gt;&lt;p&gt;3. Select timezone range using min and max sliders.&lt;/p&gt;&lt;p&gt;4. Check filtered result on the list&lt;/p&gt;&lt;p&gt;5. Change timezone range using min and max sliders.&lt;/p&gt;&lt;p&gt;6. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with modified selected timezone range.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C155</id>
+				<title>Registered user is able to filter Candidates list by monthly salary in filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Toggle salary switch to Monthly position&lt;/p&gt;&lt;p&gt;3. Select salary range using min and max sliders.&lt;/p&gt;&lt;p&gt;4. Check filtered result on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with selected monthly salary range.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C153</id>
+				<title>Registered user is able to filter Candidates list by english level in filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;br&gt;2. Select any level from English level input list&lt;br&gt;3. Check filtered result on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with selected english level.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C154</id>
+				<title>Registered user is able to filter Candidates list by Timezone in location filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Toggle &quot;Timezone&quot; on location switch&lt;/p&gt;&lt;p&gt;3. Select Timezone range using left and right sliders&lt;/p&gt;&lt;p&gt;4. Check filteredresult on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates with selected Timezone range.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C158</id>
+				<title>Registered user is able to filter Candidates list by country in location filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Toggle &quot;Country/City&quot; on location switch&lt;/p&gt;&lt;p&gt;3. Type in any country or city name in input field&lt;/p&gt;&lt;p&gt;4. Check filtered result on the list&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user see list contains only candidates from selected location.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C159</id>
+				<title>Registered user is able to save filtration settings when using filtration section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in as a recruiter.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Choose at lest one feature in filtering options.&lt;/p&gt;&lt;p&gt;3. Click [Save filters &amp; subscribe] button&lt;/p&gt;&lt;p&gt;4. Go to your Profile/Hiring management page&lt;/p&gt;&lt;p&gt;5. Check cards in Subsriptions tab&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user sees card with set filtrering options.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C160</id>
+				<title>Registered user is able to clear filtration settings when using filtration section</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-51</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1. Open candidates page&lt;/p&gt;&lt;p&gt;2. Choose at lest one feature in filtering options.&lt;/p&gt;&lt;p&gt;3. Click [Clear filters] button&lt;/p&gt;&lt;p&gt;4. Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered user sees all filters set to default.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C70</id>
+				<title>Not logged user is able to open sign in page when hovering over the Filters section and clicking [Sign In] button</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-52</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; without signing in&lt;br&gt;2 Hover over the Filters section&lt;/p&gt;&lt;p&gt;3. Click [Sign In] button&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Not logged user is redirected to sign in page when hovering over the Filters section and clicking Sign In button.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C150</id>
+				<title>Not logged user is able to open sign up page when hovering over the Filters section and clicking [Sign Up] button</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-52</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; without signing in&lt;/p&gt;&lt;p&gt;2 Hover over the Filters section&lt;/p&gt;&lt;p&gt;3. Click [Sign up] button&lt;/p&gt;&lt;p&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Not logged user is redirected to sign up page when hovering over the Filters section and clicking Sign Up button.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C71</id>
+				<title>Filters section contains field: Role</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-30</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to the Filters section&lt;br&gt;3 Observe available fields&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Filters section contains field: Role&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C146</id>
+				<title>Filters section contains field: Technologies</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-30</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to the Filters section&lt;br&gt;3 Observe available fields&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Filters section contains field: Technologies&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C147</id>
+				<title>Filters section contains field: Desired base salary</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-30</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to the Filters section&lt;br&gt;3 Observe available fields&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Filters section contains field: Desired base salary&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C148</id>
+				<title>Filters section contains field: English level</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-30</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to the Filters section&lt;br&gt;3 Observe available fields&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Filters section contains field: English level&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C149</id>
+				<title>Filters section contains field: Candidate&apos;s location</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-30</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to the Filters section&lt;br&gt;3 Observe available fields&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Filters section contains field: Candidate&apos;s location&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Cards List</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C72</id>
+				<title>Candidate card contains a list of skills</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-53</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Go to Candidates page&lt;br&gt;3 Observe content of any candidate card&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Candidate card contains a list of skills.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C161</id>
+				<title>Candidate card contains short description of achievements</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-53</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Go to Candidates page&lt;br&gt;3 Observe content of any candidate card&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Candidate card contains short description of achievements.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C73</id>
+				<title>Clicking Show experience opens all candidate experiences</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-31</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Go to &quot;Candidates&quot; page and Scroll to candidate cards&lt;br&gt;3 Click on “Show experience”&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;All candidate’s experiences become visible after clicking “Show experience”&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C74</id>
+				<title>Recruiter can start chat with a candidate by clicking [Start chat] button</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-63</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in as a Recruiter&lt;/p&gt;</preconds>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Go to &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2 Go to &quot;Candidates&quot; page and Scroll to candidate cards&lt;/p&gt;&lt;p&gt;3 Click on [Start chat] button&lt;/p&gt;&lt;p&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;&quot;Send message&quot; aplet is opened after reqruiter clicks [Start chat] on candidates card.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C75</id>
+				<title>Candidate must have recruiter profile to chat with candidates</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-38</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Go to &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2 Go to &quot;Candidates&quot; page and Scroll to candidate cards&lt;/p&gt;&lt;p&gt;3 Click on [Start chat] button&lt;/p&gt;&lt;p&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;&quot;Create reqruit profile&quot; applet is open when user-candidate clicks [start chat] button&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C76</id>
+				<title>Candidate profile opens in new tab after clicking candidate card</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-39</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Scroll to candidate cards&lt;br /&gt;3 Click on any candidate card&lt;br /&gt;4 Observe result&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;Candidate profile opens in a new browser tab&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Single profile page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C77</id>
+				<title>Candidate contact information is hidden by default</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-54</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Open any candidate card&lt;br /&gt;3 Observe contact information section&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;Candidate contact information is hidden by default&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C78</id>
+				<title>Candidates contacts are hidden for recruiter before chat is started</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-64</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;Recruiter is logged in&lt;/p&gt;&lt;p&gt;candidate exists&lt;/p&gt;&lt;p&gt;no chat between them&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Go to candidate list on Candidates page.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click a candidate card to open the profile.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Contacts info is blurred and massage &quot;CV and contacts are hidden. To make them visible, send a message to the candidate&quot; is shown&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C162</id>
+				<title>Contacts remain hidden if recruiter starts chat but candidate did not share contact info</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-64</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;Recruiter is logged in&lt;/p&gt;&lt;p&gt;exist chat between them&lt;/p&gt;&lt;p&gt;candidate did not click [Share contact info}&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Go to chats page.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Recruiter opens candidate profile.&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Contacts info is blurred and massage &quot;CV and contacts are hidden. To make them visible, send a message to the candidate&quot; is shown&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C163</id>
+				<title>Candidate contacts are vissible after recruiter starts chat and candidate accepts share contact info</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-64</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;Recruiter is logged in&lt;/p&gt;&lt;p&gt;exist chat between them&lt;/p&gt;&lt;p&gt;candidate clicked [Share contact info}&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Go to chats page.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Recruiter opens candidate profile.&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Contacts info is shown for the recruiter&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C79</id>
+				<title>Candidate experience is sorted from oldest to newest</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-55</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Open any candidate card&lt;br&gt;3 Scroll to experience section&lt;br&gt;4 Observe order of positions&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Candidate’s experience is sorted from oldest to newest positions&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign Up</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C80</id>
+				<title>User can register as recruiter or candidate after entering email and password on Sign Up page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-40</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Click Sign Up button on navbar&lt;/li&gt;&lt;li&gt;Enter valid email and password&lt;/li&gt;&lt;li&gt;Choose Recruiter or Candidate option&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User can proceed with registration as recruiter or candidate after entering valid email and password&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C81</id>
+				<title>User can register using Google authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-56</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active google acoount&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Open the Sign up page from navbar.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click “Sign up with Google”.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Select a valid Google account in the Google OAuth popup.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Grant requested permissions.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;User is redirected back to the platform&lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt; and sees the dashboard page.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C164</id>
+				<title>User can register using LinkedIn authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-56</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active LinkedIn acoount&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Open the Sign up page from navbar.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click “Sign up with LinkedIn ”.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Select a valid LinkedIn account in the Google OAuth popup.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Grant requested permissions.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;User is redirected back to the platform&lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt; and sees the dashboard page.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C165</id>
+				<title>User can register using GitHub authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-56</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active GitHub acoount&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Open the Sign up page from navbar.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click “Sign up with GitHub ”.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Select a valid GitHub account in the Google OAuth popup.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Grant requested permissions.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;User is redirected back to the platform&lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt; and sees the dashboard page.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>as a Recruiter</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C169</id>
+				<title>User is able to fill Position and Company fields during recruiter registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-57</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Enter valid Position&lt;/li&gt;&lt;li&gt;Enter valid Company&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Contact Information step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C183</id>
+				<title>User sees validation errors when leaving empty Position and Company fields during recruiter registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-57</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave Position field empty&lt;/li&gt;&lt;li&gt;Leave Company field empty&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Error information &quot;Field can not be empty&quot; are shown to the user.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C184</id>
+				<title>User is able to fill First name and Last name fields during recruiter registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-57</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Enter valid First name&lt;/li&gt;&lt;li&gt;Enter valid Last name&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Candidates filtration step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C185</id>
+				<title>User sees validation errors when leaving empty Contact fields during recruiter registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-57</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave First name field empty&lt;/li&gt;&lt;li&gt;Leave Last name field empty&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Error information &quot;Field is required&quot; are shown to the user.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C173</id>
+				<title>Recruiter is able to select candidate role during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select at least one candidate role on &quot;Find your first engineers&quot; section&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Role is selected and recruiter is redirected to &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C186</id>
+				<title>Recruiter is able to select required technologies during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select at least one required technologies  on &quot;Find your first engineers&quot; section&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Required technologies is selected and recruiter is redirected to &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C187</id>
+				<title>Recruiter is able to select salary range during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select salary range on &quot;Find your first engineers&quot; section&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Salary range is selected and recruiter is redirected to &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C188</id>
+				<title>Recruiter is able to select years of experience during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select years of experience on &quot;Find your first engineers&quot; section&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Years of experience are selected and recruiter is redirected to &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C189</id>
+				<title>Recruiter is able to select candidate english level during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select english level on &quot;Find your first engineers&quot; section&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;English level is selected and recruiter is redirected to &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C190</id>
+				<title>Recruiter is able to select candidate location during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select location on &quot;Find your first engineers&quot; section&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Location is selected and recruiter is redirected to &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C191</id>
+				<title>Recruiter is not able to proceed when none of filtres is selected</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave all filtring fields untouched&lt;/li&gt;&lt;li&gt;Click &quot;Next&quot; button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Next button is inactive.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C182</id>
+				<title>User is redirected to filtered candidates list after completing recruiter registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-58</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on a page &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot; data-pasted=&quot;true&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Click &quot;Sign Up&quot; Button&lt;/li&gt;&lt;li&gt;Fill al required info and choose Sign Up as a recruiter&lt;/li&gt;&lt;li&gt;Complete all registration steps with valid informations.&lt;/li&gt;&lt;li&gt;Choose manually Sending message step.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to Candidates page with applied filters.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C180</id>
+				<title>Recruiter is able to automatically send message to filtered engineers</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Type in message in message field on &quot;Reach out to matching engineers&quot; page&lt;/li&gt;&lt;li&gt;Click [Send] button&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Message is sent and user proceeds to candidate list.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C181</id>
+				<title>Recruiter is able to skip sending messages during registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-41</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a recruiter on &quot;Reach out to matching engineers&quot; step&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;Leave empty message field on &quot;Reach out to matching engineers&quot; page &lt;/p&gt;&lt;p&gt;Click [Contact Engineers manualy] button&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User proceeds to candidates list without sending messages.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>as a Candidate</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C192</id>
+				<title>User is able to fill all fields in Role tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill in &quot;Desired Position&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Choose at least one &quot;Desired Role&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Choose at least five &quot;Technical Skills&quot;&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Candidates expectations step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C193</id>
+				<title>User is able to fill all fields in Expectations tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a candidate in a Expectations Tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill in &quot;Salary&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Choose &quot;Job experience&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Choose &quot;English level&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Choose &quot;Location&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Select Employment options&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Candidates experience step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C194</id>
+				<title>User is able to fill all fields in Experience tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill in &quot;Role&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Fill in &quot;Company&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Choose start and end dates&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Candidates expectations step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C195</id>
+				<title>User is able to fill all fields in Bio tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill in &quot;Achievements&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Candidates expectations step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C196</id>
+				<title>User is able to fill all fields in Contact tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is in a process of Signing Up as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill in &quot;First Name &quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Fill in &quot;last Name &quot; field&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Candidates expectations step.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C198</id>
+				<title>User sees validation errors when leaving empty Desired position field on Role Tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Role tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave Desired position empty &lt;/li&gt;&lt;li&gt;Fill other fields&lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed; user stays on Role tab&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C199</id>
+				<title>User sees validation errors when leaving empty Desired roles field on Role Tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Role tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill all fields except Desired roles &lt;/li&gt;&lt;li&gt; Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C200</id>
+				<title>User sees validation errors when chooseng fewer than 5 skills on Role Tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Role tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill all fields &lt;/li&gt;&lt;li&gt;Select fewer than 5 skills &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C203</id>
+				<title>User sees validation errors when leaving empty Salary field on Expectations Tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Expectations tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Toggle salary type &lt;/li&gt;&lt;li&gt;Leave salary empty &lt;/li&gt;&lt;li&gt;Fill other fields &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C204</id>
+				<title>User sees validation errors when selecting Office tick but leaving empty office location field on Expectations Tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Expectations tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Select Office &lt;/li&gt;&lt;li&gt;Leave office location empty &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C205</id>
+				<title>User sees validation errors when leaving empty Job experience  field on Experience Tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Expectations tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Fill all fields except job experience &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C209</id>
+				<title>User is able to fill all fields when adding manually experience in Experience tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Experience tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Click Add manually &lt;/li&gt;&lt;li&gt;Enter Role &lt;/li&gt;&lt;li&gt;Enter Company name &lt;/li&gt;&lt;li&gt;Select Start date &lt;/li&gt;&lt;li&gt;Toggle I&apos;m working there OR enter End date &lt;/li&gt;&lt;li&gt;Enter Achievements &lt;/li&gt;&lt;li&gt;Click Save&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Summary card displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C211</id>
+				<title>User sees validation errors when leaving empty Role field when manualy addding Experience during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Add manually form&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave Role empty &lt;/li&gt;&lt;li&gt;Fill other fields &lt;/li&gt;&lt;li&gt;Click Save&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C212</id>
+				<title>User sees validation errors when toggle off end date but leaving empty End date field when manualy addding Experience during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Add manually form&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Turn off I&apos;m working there toggle &lt;span style=&quot;color: rgb(65, 65, 65); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt; &lt;/span&gt;&lt;/li&gt;&lt;li&gt;Leave End date empty &lt;/li&gt;&lt;li&gt;Click Save&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C215</id>
+				<title>User sees validation errors when leaving empty Achievements   field on BioTab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Bio tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave Achievements empty &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C217</id>
+				<title>User is able to upload photo on contacts tab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Contact tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Toggle avatar to Usual &lt;/li&gt;&lt;li&gt;Upload photo&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Photo uploaded successfully&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C221</id>
+				<title>User sees validation errors when leaving empty First name field on ContactsTab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Contact tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave First name empty &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C222</id>
+				<title>User sees validation errors when leaving empty Last name field on ContactsTab during candidate registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-65</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is on Contact tab&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Leave Last name empty &lt;/li&gt;&lt;li&gt;Click Save and continue&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Validation error displayed&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign In</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C87</id>
+				<title>Sign In page contains Forgot password link redirecting to Forgot password page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-32</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/sign-in&quot;&gt;https://huntd.tech/sign-in&lt;/a&gt;&lt;br&gt;2 Locate “Forgot the password” link&lt;br&gt;3 Click on the link&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is redirected to Forgot password page after clicking “Forgot the password” link&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C227</id>
+				<title>User can Sign In after entering email and password on Sign In page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references>HTD-83</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Click Sign Up button on navbar&lt;/li&gt;&lt;li&gt;Enter valid email and password&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User is logged in after entering valid email and password&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C228</id>
+				<title>User can Sign In using Google authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-84</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active google acoount&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Open the Sign In page from navbar.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click “Sign inwith Google”.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Select a valid Google account in the Google OAuth popup.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Grant requested permissions.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;User is redirected back to the platform&lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt; and sees the dashboard page.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C229</id>
+				<title>User can Sign In using LinkedIn authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-84</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active LinkedIn acoount&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Open the Sign in page from navbar.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click “Sign in with LinkedIn ”.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Select a valid LinkedIn account in the Google OAuth popup.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Grant requested permissions.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;User is redirected back to the platform&lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt; and sees the dashboard page.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C230</id>
+				<title>User can Sign In using GitHub authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-84</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active GitHub acoount&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Open the Sign in page from navbar.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Click “Sign in with GitHub ”.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Select a valid GitHub account in the Google OAuth popup.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;Grant requested permissions.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt;User is redirected back to the platform&lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap&quot;&gt; and sees the dashboard page.&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Jobs</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C107</id>
+				<title>Registered users recieves confirmation after posting a new job manually on jobs page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-71</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; as a registered user&lt;br&gt;2 Navigate to job posting section&lt;br&gt;3 Choose Post Job manualy&lt;br&gt;4 Fill in or upload required job details&lt;br&gt;5 Submit the job&lt;br&gt;6 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Registered users sees pop up window with message &quot;New request was sent&quot;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C108</id>
+				<title>Applying with 1 click is available for user logged in as a Candidate</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-49</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; as a candidate&lt;br&gt;2 Navigate to any job listing&lt;br&gt;3 Click on [Apply with 1 click]&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees confirmation of applied job.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C109</id>
+				<title>Users can filter vacancies using skills filters</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-37</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to vacancies section&lt;br&gt;3 Use skills filters to refine results&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Vacancy results are filtered according to selected skills&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C110</id>
+				<title>Not logged-in users can only view limited vacancies and are prompted to sign in when clicking View more</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-72</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; without signing in&lt;br&gt;2 Navigate to vacancies section&lt;br&gt;3 Click on [View more]&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Not logged-in users see limited vacancies and are prompted to sign in after clicking [View more]&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C111</id>
+				<title>Users recieves confirmation after filling all fields in subbscribe to vacancies list form at the bottom of the page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-28</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the bottom of the page&lt;br&gt;3 Fill in Desired roles, Experience, and Email fields&lt;br&gt;4 Click on [Recieve Jobs]&lt;br&gt;5 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User receives confirmation of successful subscription&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C265</id>
+				<title>Users recieves error validation after all fields empty in subbscribe to vacancies list form at the bottom of the page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-28</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the bottom of the page&lt;br&gt;3 Leave Desired roles, Experience, and Email fields empty&lt;br&gt;4 Click on [Recieve Jobs]&lt;br&gt;5 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User receives error monit.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C264</id>
+				<title>Logged-in users can view additional vacancies  when clicking View more button on jobs ist page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-72</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; without signing in&lt;br&gt;2 Navigate to vacancies section&lt;br&gt;3 Click on [View more]&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;List of vacancies expands when logged-in users clicks [View more]&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C263</id>
+				<title>Applying with 1 click is not available for user logged in as a Reqruiter</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-49</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt; as a candidate&lt;br&gt;2 Navigate to any job listing&lt;br&gt;3 Click on [Apply with 1 click]&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User sees monit &quot;Create a candidate&quot; profile&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Chats</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C88</id>
+				<title>Recruiter can initiate chat with a candidate from the list of candidates</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-42</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Navigate to the list of candidates&lt;/li&gt;&lt;li&gt;Click on [Start chat] button on any candidate card&lt;/li&gt;&lt;li&gt;Type in message in message window&lt;/li&gt;&lt;li&gt;Click {Send message] button&lt;/li&gt;&lt;li&gt;Go to chats page&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Recruiter is able to see new conversation on his chats list&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C89</id>
+				<title>Recruiter can initiate chat with a candidate from candidate profile page</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-67</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol data-pasted=&quot;true&quot;&gt;&lt;li&gt;Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Navigate to the list of candidates&lt;/li&gt;&lt;li&gt;Open any of candidates profile page&lt;/li&gt;&lt;li&gt;Click on [Start chat] button on any candidate card&lt;/li&gt;&lt;li&gt;Type in message in message window&lt;/li&gt;&lt;li&gt;Click {Send message] button&lt;/li&gt;&lt;li&gt;Go to chats page&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(234, 241, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none&quot; data-pasted=&quot;true&quot;&gt;Recruiter is able to see new conversation on his chats list&lt;/span&gt;&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C90</id>
+				<title>Recruiter cannot see candidate contacts before initiating chat</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-43</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Open any candidate profile&lt;br&gt;3 Observe contact information section before starting chat&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Recruiter cannot see candidate contact information before initiating chat&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C91</id>
+				<title>Candidate can share contacts info to recruiter after recievieng message from recruiter</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-44</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as candidate on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Open chat request from recruiter&lt;/li&gt;&lt;li&gt;Click Share [contacts] button&lt;/li&gt;&lt;li&gt;Click [Confirm] on confimation popup window&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Candidate see his contact informations popped out in chat conversation window&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C92</id>
+				<title>Recruiter can send offer to active candidate</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-45</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;There is an active chat beetween recruiter and candidate.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1 Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Open an active chat with a candidate&lt;br&gt;3 Type in offer message and send to candidate&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Recruiter can see his message popped up in chat window.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C93</id>
+				<title>User can archive chat from chat list</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-59</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to chat list&lt;br&gt;3 Select any chat&lt;br&gt;4 Click on [Archive] option from chat kebeb menu&lt;br&gt;5 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User can see chat on a list of archived chats&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C233</id>
+				<title>User can unarchive chat from archived chat list</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-45</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;There is an active chat beetween recruiter and candidate.&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Go to the list of an archived chats &lt;/li&gt;&lt;li&gt;Click kebab menu on one chat from the list&lt;/li&gt;&lt;li&gt;Choose &quot;unarchive&quot;&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Recruiter can see chat back on the list of active chats&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C234</id>
+				<title>Recruiter can mark chat as rejected</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-45</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;There is an active chat beetween recruiter and candidate.&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Go to the list of an active chats &lt;/li&gt;&lt;li&gt;Click kebab menu on one chat from the list&lt;/li&gt;&lt;li&gt;Choose &quot;rejected&quot;&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Recruiter can see chat on the list marked as rejected&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C236</id>
+				<title>Recruiter can mark chat as favourite</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-59</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;There is an active chat beetween recruiter and candidate.&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Go to the list of an active chats &lt;/li&gt;&lt;li&gt;Click kebab menu on one chat from the list&lt;/li&gt;&lt;li&gt;Choose &quot;favourite&quot;&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Recruiter can see chat on the list marked as favourite&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C235</id>
+				<title>Recruiter can delete chat from chat list</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-45</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;There is an active chat beetween recruiter and candidate.&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as recruiter on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Go to the list of an active chats &lt;/li&gt;&lt;li&gt;Click kebab menu on one chat from the list&lt;/li&gt;&lt;li&gt;Choose &quot;delete&quot;&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Recruiter can see chat is deleted from the list&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C231</id>
+				<title>Candidate can response and share contacts info to recruiter after recievieng message from recruiter</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-44</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as candidate on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Open chat request from recruiter&lt;/li&gt;&lt;li&gt;Click [Interested] button and send pasted response&lt;/li&gt;&lt;li&gt;Click Share [contacts] button in popup window&lt;/li&gt;&lt;li&gt;Click [Confirm] on confimation popup window&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Candidate see his senden message and contact informations popped out in chat conversation window&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C232</id>
+				<title>Candidate can response and not share contacts info to recruiter after recievieng message from recruiter</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-44</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in as candidate on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Open chat request from recruiter&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Click [Interested] button and send pasted response&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Candidate see his response message popped out in chat conversation window&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Profile</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C94</id>
+				<title>User can post a job on a Jobs page and Apply with 1-click without having to log in to another account</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-46</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is logged in as a recruiter and as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Navigate to Jobs page&lt;/li&gt;&lt;li&gt;Click [Post a Job] button and observe result&lt;/li&gt;&lt;li&gt;Click [Apply with 1 click] button on any job offer&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User sees that the &lt;em&gt;Post a job&lt;/em&gt; process has started and receives a confirmation that the job was applied successfully.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C95</id>
+				<title>User can add candidate profile after being logged in as a recruiter</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-68</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active recruiter account.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1 log in as a recruiter  on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Go to your profile page&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;User is able to create candidate profile after registration&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C97</id>
+				<title>User can switch from recruiter to candidate profile in profile settings</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-33</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to profile settings&lt;br&gt;3 Switch to candidate profile&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;User sees changed list of options in profile tab&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C98</id>
+				<title>User can connect social networks in profile settings</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-69</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has candidate or recruiter account&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Navigate to profile settings&lt;/li&gt;&lt;li&gt;Type in LinkedIn, GitHub, and Google links to apropriate fields.&lt;/li&gt;&lt;li&gt;Go to Preview profile profile&lt;/li&gt;&lt;li&gt;Click listed links to social media&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User can see all social connected links and is able to click them and is redirected to apropriate pages&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C99</id>
+				<title>User can deactivate candidate profile in profile settings</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-48</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active candidate profile&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Navigate to profile settings&lt;/li&gt;&lt;li&gt;Click deactivate button&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User is able to deactivate their candidate profile in profile settings&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C254</id>
+				<title>User can activate candidate profile in profile settings</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-48</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has deactivated candidate profile&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Navigate to profile settings&lt;/li&gt;&lt;li&gt;Click activate button&lt;/li&gt;&lt;li&gt;Observe result&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;User is able to activate their candidate profile in profile settings&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C253</id>
+				<title>User can switch from candidate to recruiter profile in profile settings</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-33</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;ol&gt;&lt;li&gt;User is Signed In as a candidate &lt;/li&gt;&lt;/ol&gt;</preconds>
+											<steps>&lt;p&gt;1 Sign in to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Navigate to profile settings&lt;br&gt;3 Switch to recruiter profile&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;User sees changed list of options in profile tab&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C237</id>
+				<title>User can add recruiter profile after being logged in as a candidate</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-68</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User has active candidate account.&lt;/p&gt;</preconds>
+											<steps>&lt;p&gt;1 log in as a candidate on &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Go to your profile page&lt;br&gt;4 Observe result&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;User is able to create recruiter profile after registration&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C238</id>
+				<title>User is able to change Role and Company fields during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Enter new valid Position&lt;/li&gt;&lt;li&gt;Enter new valid Company&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and user is redirected to Contact Information page.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C239</id>
+				<title>User sees confirmation after changing Role and Company fields while editing recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Insert new valid data to Position field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Insert new valid data to Company field&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Confirmation message is shown to the user.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C240</id>
+				<title>User is able to add photo during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to your profile contact tab informations&lt;/li&gt;&lt;li&gt;Click &quot;upload photo&quot;and choose a file&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Photo is succesfully uploaded and visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C241</id>
+				<title>User is able to remove photo during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter and has uploaded photo on his profile&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to your profile contact tab informations&lt;/li&gt;&lt;li&gt;Click &quot;Remove photo file&quot;&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Photo is succesfully removed and not visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C242</id>
+				<title>User is able to add cv file during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to your profile contact tab informations&lt;/li&gt;&lt;li&gt;Click &quot;Attach CV file &quot;and choose a file&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;File is succesfully uploaded and visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C243</id>
+				<title>User is able to remove CV during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter and has uploaded CV on his profile&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to your profile contact tab informations&lt;/li&gt;&lt;li&gt;Click &quot;Remove CV file&quot;&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;CV is succesfully removed and not visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C244</id>
+				<title>User is able to change First Name and Last Name fields during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Change First Name input&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change Last Name input&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and change is visible on Contact Information page.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C245</id>
+				<title>User is able to edit LinkedIn page link during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Paste new LinkedIn profile link&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and new adress is visible&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C246</id>
+				<title>User is able to edit Behance page link during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Paste new Behance profile link&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and new adress is visible&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C247</id>
+				<title>User is able to edit GitHub page link during edition of recruiter profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a recruiter &lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Paste new GitHub profile link&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and new adress is visible&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C248</id>
+				<title>User is able to edit all fields in Role tab during edition candidate profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Change in &quot;Desired Position&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change at least one &quot;Desired Role&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change at least one &quot;Technical Skills&quot;&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and change is visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C249</id>
+				<title>User is able to edit all fields in Expectations tab during edition candidate profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Change in &quot;Salary&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change &quot;Job experience&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change &quot;English level&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change &quot;Location&quot;&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;CHange Employment options&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C250</id>
+				<title>User is able to edit all fields in Experience tab during edition candidate profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to Experience atb&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Click edit button in one of your jobs&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change at least one input in every field&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and change is visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C251</id>
+				<title>User is able to edit all fields in Bio tab during edition candidate profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Change in &quot;Achievements&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change in &quot;Expectations&quot; field&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and change is visible.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C252</id>
+				<title>User is able to edit all fields in Contact tab during edition candidate profile</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>HTD-47</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;User is Signed In as a candidate&lt;/p&gt;</preconds>
+											<steps>&lt;ol&gt;&lt;li&gt;Change in &quot;First name&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change in &quot;Last name&quot; field&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Remove photo&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Change all links to social profiles&lt;/li&gt;&lt;li&gt;Click &apos;Save and continue&apos;.&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Data is saved and change is visible&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Footer</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C100</id>
+				<title>Footer contains TOP 100 WEB3 COMPANIES with preview of top 5 companies</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-34</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Scroll to the footer section&lt;br /&gt;3 Observe the TOP 100 WEB3 COMPANIES block&lt;br /&gt;4 Observe preview of top 5 companies&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;Footer displays “TOP 100 WEB3 COMPANIES” and shows preview of top 5 companies&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C101</id>
+				<title>Footer contains 3 columns of vacancies for web3 developers</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-60</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br /&gt;2 Scroll to the footer section&lt;br /&gt;3 Observe vacancies section&lt;/p&gt;
+</steps>
+											<expected>&lt;p&gt;Footer contains 3 columns of vacancies for web3 developers&lt;/p&gt;
+</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C102</id>
+				<title>Footer contains link to LinkedIn page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-61</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the footer section&lt;br&gt;3 Observe social network links&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Footer contains links to LinkedIn&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C103</id>
+				<title>Footer contains links to documents (terms of use, cookies and pirviacy policy)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-35</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Go to &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2 Scroll to the footer section&lt;/p&gt;&lt;p&gt;3 Observe links section&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Fotter contains links to documents (terms of use, cookies and pirviacy policy)&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C260</id>
+				<title>Footer contains links to Pricing page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-35</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Go to &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2 Scroll to the footer section&lt;/p&gt;&lt;p&gt;3 Observe links section&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Footer contains links to pricing page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C261</id>
+				<title>Footer contains links to FAQ page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-35</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Go to &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2 Scroll to the footer section&lt;/p&gt;&lt;p&gt;3 Observe links section&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;Footer contains links to FAQ page&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C262</id>
+				<title>Footer contains links to About Us page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-35</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p data-pasted=&quot;true&quot;&gt;1 Go to &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;2 Scroll to the footer section&lt;/p&gt;&lt;p&gt;3 Observe links section&lt;/p&gt;</steps>
+											<expected>&lt;p&gt;Footer contains links to About Us page&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C255</id>
+				<title>Footer contains link to Twitter page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-61</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the footer section&lt;br&gt;3 Observe social network links&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;Footer contains links to twitter&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C256</id>
+				<title>Footer contains link to Telegram page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-61</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the footer section&lt;br&gt;3 Observe social network links&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;Footer contains links to Telegram&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C257</id>
+				<title>Footer contains link to Signal page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-61</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the footer section&lt;br&gt;3 Observe social network links&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;Footer contains links to Sigmal&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C258</id>
+				<title>Footer contains link to Instagram page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-61</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the footer section&lt;br&gt;3 Observe social network links&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;Footer contains links to instagram&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C259</id>
+				<title>Footer contains link to facebook page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-61</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;p&gt;1 Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;br&gt;2 Scroll to the footer section&lt;br&gt;3 Observe social network links&lt;/p&gt;</steps>
+											<expected>&lt;ol&gt;&lt;li&gt;Footer contains links to Facebook&lt;/li&gt;&lt;/ol&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Web3 companies</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C104</id>
+				<title>Page contains table with 100 web3 companies split by 10</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-62</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Scroll to the companies table section&lt;/li&gt;&lt;li&gt;Click [View Top 100] button&lt;/li&gt;&lt;li&gt;Observe table structure&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Page contains a table with 100 web3 companies split into groups of 10 (10/100; N/100; 100/100)&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C105</id>
+				<title>Each company has a clickable logo and name</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-36</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol&gt;&lt;li&gt;Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Scroll to the companies table section&lt;/li&gt;&lt;li&gt;Click [View Top 100] button&lt;/li&gt;&lt;li&gt;Observe table structure&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Each company on the list has its logo and clickable link.&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C106</id>
+				<title>Clicking company logo opens vacancies page in new tab</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>HTD-70</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<steps>&lt;ol data-pasted=&quot;true&quot;&gt;&lt;li&gt;Go to &lt;a href=&quot;https://huntd.tech/&quot;&gt;https://huntd.tech/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Scroll to the companies table section&lt;/li&gt;&lt;li&gt;Click [View Top 100] button&lt;/li&gt;&lt;li&gt;Observe table structure&lt;/li&gt;&lt;li data-pasted=&quot;true&quot;&gt;Click on any company logo or name&lt;/li&gt;&lt;/ol&gt;</steps>
+											<expected>&lt;p&gt;Company logo opens a new tab with a list of vacancies for that company&lt;/p&gt;</expected>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
